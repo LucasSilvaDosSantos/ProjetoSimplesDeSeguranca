@@ -1,0 +1,23 @@
+﻿<Window x:Class="ProjetoSegurança.AnaliseDeFrequencia"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetoSegurança"
+        mc:Ignorable="d"
+        Title="AnaliseDeFrequanciaView" Height="720" Width="1280" FontSize="20">
+    <Grid>
+
+        <Label x:Name="lbMensagemCifrada" Content="Mensagem Cifrada:" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="10,18,10,0" VerticalAlignment="Top" Width="1252"/>
+        <TextBox x:Name="tbCifrada" Height="80" HorizontalContentAlignment="Center" Margin="10,60,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Possiveis Mensagens Decifradas:" Margin="10,145,10,507" HorizontalContentAlignment="Center" Height="37"  />
+        <TextBox x:Name="tbDecifradaA" Height="80" Margin="10,187,10,422" HorizontalContentAlignment="Center" IsReadOnly="True" TextWrapping="Wrap"/>
+        <TextBox x:Name="tbDecifradaE" Height="80" Margin="10,272,10,337" HorizontalContentAlignment="Center" IsReadOnly="True" TextWrapping="Wrap"/>
+        <TextBox x:Name="tbDecifradaO" Height="80" Margin="10,357,10,252" HorizontalContentAlignment="Center" IsReadOnly="True" TextWrapping="Wrap"/>
+        <TextBox x:Name="tbDecifradaS" Height="80" Margin="10,442,10,167" HorizontalContentAlignment="Center" IsReadOnly="True" TextWrapping="Wrap"/>
+        <TextBox x:Name="tbDecifradaR" Height="80" Margin="10,527,10,82" HorizontalContentAlignment="Center" IsReadOnly="True" TextWrapping="Wrap"/>
+        <Button x:Name="btDecifrar" Content="Decifrar" Margin="595,0,587,39" VerticalAlignment="Bottom" Click="BtDecifrar_Click"/>
+        <Button x:Name="btVoltar" Content="Voltar" HorizontalAlignment="Right" Margin="0,0,57,39" VerticalAlignment="Bottom" Width="75" Click="BtVoltar_Click"/>
+    </Grid>
+</Window>
+

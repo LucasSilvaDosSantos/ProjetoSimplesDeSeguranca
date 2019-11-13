@@ -1,0 +1,14 @@
+﻿<Window x:Class="ProjetoSegurança.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetoSegurança"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280" FontSize="20">
+    <Grid>
+        <Button x:Name="btCesar" Content="Cesar" FontSize="30" HorizontalAlignment="Left" Margin="370,270,0,0" VerticalAlignment="Top" Width="160" Height="55" Click="BtCesar_Click"/>
+        <Button x:Name="btVigenere" Content="Vigenere" FontSize="30" HorizontalAlignment="Right" Margin="0,270,347,0" VerticalAlignment="Top" Width="160" Height="55" Click="BtVigenere_Click"/>
+        <Button x:Name="btAnaliseDeFrequencia" Content="Análise de Frequência Cesar" FontSize="30" Margin="370,0,347,184" VerticalAlignment="Bottom" Height="55" Click="BtAnaliseDeFrequencia_Click"/>
+    </Grid>
+</Window>
